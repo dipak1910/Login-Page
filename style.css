@@ -1,62 +1,73 @@
-body{
+body {
     font-family: sans-serif;
     background-image: url(img.jpg);
     background-repeat: no-repeat;
     overflow: hidden;
     background-size: cover;
 }
-.container{
-    width: 380px;
-    margin: 7% auto;
-    border-radius: 25px;
-    background-color: lightblue ;
+
+.container {
+    width: 350px;
+    margin: 6.5% auto;
+    border-radius: 44px;
+    background-color: lightblue;
     box-shadow: 0 0 10px #333;
 }
-.header{
+
+.header {
     text-align: center;
-    padding-top: 75px;
+    padding-top: 70px;
 }
-.header h1{
-    color: brown;
-    font-size: 45px;
-    margin-bottom: 80px ;
+
+.header h1 {
+    color: rgb(120, 49, 251);
+    font-size: 35px;
+    margin-bottom: 50px;
 }
-.main{
+
+.main {
     text-align: center;
 }
-.main input,button{
+
+.main input,
+button {
     width: 300px;
     height: 40px;
     border: none;
     outline: none;
-    padding-left: 40px;
+    padding-left: 50px;
     box-sizing: border-box;
     font-size: 15px;
-    color: aliceblue;
+    color: rgb(0, 0, 4);
     margin-bottom: 40px;
 }
-.main button{
+
+.main button {
     padding-left: 0;
-    background-color:#834;
+    background-color: rgb(121, 78, 212);
     letter-spacing: 1px;
     font-weight: bold;
     margin-bottom: 70px;
 }
-.main button:hover{
+
+.main button:hover {
     box-shadow: 2px 2px 5px #555;
     background-color: #7744;
 }
-.main input:hover{
+
+.main input:hover {
     box-shadow: 2px 2px 5px #555;
-    background-color: blueviolet;
+    background-color: rgb(55, 180, 171);
 }
-.main span{
+
+.main span {
     position: relative;
 }
-.main i{
+
+.main i {
     position: absolute;
     left: 15px;
-    color: aquamarine;
+    color: rgb(60, 9, 244);
     font-size: 10px;
     top: 2px;
 
